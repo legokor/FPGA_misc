@@ -5,13 +5,34 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLParsers" num="164" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/sec_cntr.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">parse error, unexpected IDENTIFIER, expecting COMMA or CLOSEPAR</arg>
+<msg type="warning" file="HDLParsers" num="3516" delta="new" >Found error in file &quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd</arg>&quot;. 
 </msg>
 
-<msg type="error" file="HDLParsers" num="808" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/sec_cntr.vhd</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. <arg fmt="%s" index="3">+</arg> can not have such operands in this context.
+<msg type="warning" file="HDLParsers" num="3458" delta="new" >Because of erroneous VHDL file(s), automatic determination of correct order of compilation of files in project file &quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/topmodul_vhdl.prj</arg>&quot; may be inaccurate. Please put the files in the project file in correct order with keyword &apos;nosort&apos; at end of the project file, or compile your vhdl file(s) individually to find and fix the error(s) in your vhdl file(s). 
 </msg>
 
-<msg type="error" file="HDLParsers" num="164" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/sec_cntr.vhd</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. <arg fmt="%s" index="3">parse error, unexpected IDENTIFIER, expecting IF</arg>
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">parse error, unexpected TICK</arg>
+</msg>
+
+<msg type="error" file="HDLParsers" num="800" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. Type of <arg fmt="%s" index="3">cntrh</arg> is incompatible with type of <arg fmt="%s" index="4">&lt;=</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="808" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. <arg fmt="%s" index="3">+</arg> can not have such operands in this context.
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. <arg fmt="%s" index="3">parse error, unexpected ELSE, expecting END</arg>
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd</arg>&quot; Line <arg fmt="%d" index="2">61</arg>. <arg fmt="%s" index="3">parse error, unexpected TICK</arg>
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd</arg>&quot; Line <arg fmt="%d" index="2">64</arg>. <arg fmt="%s" index="3">parse error, unexpected TICK</arg>
+</msg>
+
+<msg type="error" file="HDLParsers" num="808" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd</arg>&quot; Line <arg fmt="%d" index="2">68</arg>. <arg fmt="%s" index="3">-</arg> can not have such operands in this context.
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd</arg>&quot; Line <arg fmt="%d" index="2">72</arg>. <arg fmt="%s" index="3">parse error, unexpected END, expecting IF</arg>
 </msg>
 
 </messages>

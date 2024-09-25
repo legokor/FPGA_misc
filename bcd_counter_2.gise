@@ -30,12 +30,21 @@
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="sec_cntr.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="sec_cntr.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sec_cntr.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sec_cntr.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="sec_cntr.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="sec_cntr.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="sec_cntr_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="sec_cntr_summary.html"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sec_cntr_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sec_cntr_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="topmodul.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="topmodul.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="topmodul.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="topmodul.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="topmodul.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="topmodul_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="topmodul_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="topmodul_xst.xrpt"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
@@ -69,25 +78,30 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1727266828" xil_pn:in_ck="-8839253416909842023" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4250829080231385881" xil_pn:start_ts="1727266812">
+    <transform xil_pn:end_ts="1727278538" xil_pn:in_ck="2494091411009386557" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4135072703432726940" xil_pn:start_ts="1727278526">
       <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="sec_cntr.lso"/>
-      <outfile xil_pn:name="sec_cntr.prj"/>
-      <outfile xil_pn:name="sec_cntr.syr"/>
-      <outfile xil_pn:name="sec_cntr.xst"/>
-      <outfile xil_pn:name="sec_cntr_vhdl.prj"/>
-      <outfile xil_pn:name="sec_cntr_xst.xrpt"/>
+      <outfile xil_pn:name="topmodul.lso"/>
+      <outfile xil_pn:name="topmodul.prj"/>
+      <outfile xil_pn:name="topmodul.syr"/>
+      <outfile xil_pn:name="topmodul.xst"/>
+      <outfile xil_pn:name="topmodul_vhdl.prj"/>
+      <outfile xil_pn:name="topmodul_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
     <transform xil_pn:end_ts="1727266761" xil_pn:in_ck="6216817846382341021" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7384650490876540841" xil_pn:start_ts="1727266761">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
     </transform>
   </transforms>
 

@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.64 secs
+Total CPU time to Xst completion: 0.69 secs
  
 --> Parameter xsthdpdir set to C:/Users/FPGA/Documents/GitHub/FPGA_misc/xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.66 secs
+Total CPU time to Xst completion: 0.69 secs
  
 --> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
 
@@ -30,11 +30,11 @@ ERROR:HDLParsers:164 - "C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.89 secs
+Total CPU time to Xst completion: 1.02 secs
  
 --> 
 
-Total memory usage is 4452580 kilobytes
+Total memory usage is 4468828 kilobytes
 
 Number of errors   :    8 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

@@ -1,0 +1,37 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/FPGA/Documents/GitHub/FPGA_misc/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.58 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/FPGA/Documents/GitHub/FPGA_misc/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.58 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/FPGA/Documents/GitHub/FPGA_misc/sec_cntr.vhd" in Library work.
+Entity <sec_cntr> compiled.
+ERROR:HDLParsers:164 - "C:/Users/FPGA/Documents/GitHub/FPGA_misc/sec_cntr.vhd" Line 52. parse error, unexpected IDENTIFIER, expecting COMMA or CLOSEPAR
+ERROR:HDLParsers:808 - "C:/Users/FPGA/Documents/GitHub/FPGA_misc/sec_cntr.vhd" Line 55. + can not have such operands in this context.
+ERROR:HDLParsers:164 - "C:/Users/FPGA/Documents/GitHub/FPGA_misc/sec_cntr.vhd" Line 58. parse error, unexpected IDENTIFIER, expecting IF
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.81 secs
+ 
+--> 
+
+Total memory usage is 4452508 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

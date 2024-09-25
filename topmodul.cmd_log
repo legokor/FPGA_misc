@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/FPGA/Documents/GitHub/FPGA_misc/topmodul.xst" -ofn "C:/Users/FPGA/Documents/GitHub/FPGA_misc/topmodul.syr" 

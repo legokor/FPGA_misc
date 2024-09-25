@@ -52,7 +52,7 @@ begin
 			if(to_integer cntr= clk_freq-1) then
 				cntr<=(others=>'0');
 			else 
-				cntr<= cntr+1;	
+				cntr<= cntr+'1';	
 	
 end 
 sec pulse <= '1' when  to_integer( cntr)= clk_freq-1 else '0'; --cnrt and 1
