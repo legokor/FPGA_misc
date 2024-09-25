@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2024-09-18T18:19:41</DateModified>
+  <DateModified>2024-09-25T14:34:52</DateModified>
   <ModuleName>sec_cntr</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/FPGA/Desktop/FPGA/bcd_counter_2/iseconfig/sec_cntr.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/FPGA/Desktop/FPGA/bcd_counter_2\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2024-09-25T14:20:29</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/FPGA/Documents/GitHub/FPGA_misc/iseconfig/sec_cntr.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/FPGA/Documents/GitHub/FPGA_misc\</ImplementationReportsDirectory>
   <DateInitialized>2024-09-18T18:15:05</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

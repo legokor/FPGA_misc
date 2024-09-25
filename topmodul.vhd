@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    19:40:09 09/11/2024 
+-- Create Date:    14:23:52 09/25/2024 
 -- Design Name: 
--- Module Name:    sec_cntr - Behavioral 
+-- Module Name:    topmodul - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,33 +29,30 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity sec_cntr is
-	Generic (
-		clk_freq: integer
-	);
+entity topmodul is
     Port ( clk : in  STD_LOGIC;
-           rstn : in  STD_LOGIC;
-           sec_pulse : out  STD_LOGIC);
-end sec_cntr;
+           sw(1) : in  STD_LOGIC;
+           Led : out  STD_LOGIC_VECTOR (7 downto 0);
+           sw(0) : in  STD_LOGIC);
+end topmodul;
 
-architecture Behavioral of sec_cntr is
- 
-signal cntr : std_logic_vector (31 downto 0);
+architecture Behavioral of topmodul is
 
 begin
 
-process( clk, rstn ) is
-begin
-	if(rstn='1') then
-		cntr<=(others=>'0');
-	else if( rising_edge (clk)) then
-			if(to_integer cntr= clk_freq-1) then
-				cntr<=(others=>'0');
-			else 
-				cntr<= cntr+1;	
-	
-end 
-sec pulse <= '1' when  to_integer( cntr)= clk_freq-1 else '0'; --cnrt and 1
+bcd : bcd_counter
+port map (
+			  clk =>clk
+           rstn ;
+           dir : in  STD_LOGIC;
+           en : in  STD_LOGIC;
+           cntrl : out  STD_LOGIC_VECTOR (3 downto 0);
+			  cntrh : out  STD_LOGIC_VECTOR (3 downto 0));
+
+
+)
+
+
 
 end Behavioral;
 

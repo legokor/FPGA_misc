@@ -1,0 +1,12 @@
+V3 6
+FL C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd 2024/09/25.14:08:01 P.68d
+EN work/bcd_counter 0 FL C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/bcd_counter/Behavioral 0 \
+      FL C:/Users/FPGA/Documents/GitHub/FPGA_misc/bcd_counter.vhd \
+      EN work/bcd_counter 0
+FL C:/Users/FPGA/Documents/GitHub/FPGA_misc/sec_cntr.vhd 2024/09/25.13:35:26 P.68d
+EN work/sec_cntr 0 FL C:/Users/FPGA/Documents/GitHub/FPGA_misc/sec_cntr.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/sec_cntr/Behavioral 0 \
+      FL C:/Users/FPGA/Documents/GitHub/FPGA_misc/sec_cntr.vhd EN work/sec_cntr 0

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/FPGA/Documents/GitHub/FPGA_misc/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/FPGA/Documents/GitHub/FPGA_misc/xst"
+elaborate
+-ifn bcd_counter.prj
+-ifmt mixed
